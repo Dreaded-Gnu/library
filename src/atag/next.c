@@ -18,7 +18,7 @@
  * along with bolthur/library.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <atag.h>
+#include "atag.h"
 
 /**
  * @brief Get next atag entry
