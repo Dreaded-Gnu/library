@@ -18,15 +18,16 @@
  * along with bolthur/library.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#if ! defined( __LIB_SYS__ )
-#define __LIB_SYS__
+#include <string.h>
+#include "message.h"
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-#ifdef __cplusplus
+/**
+ * @brief Receive message asynchronous
+ *
+ * @return sys_message_ptr_t
+ *
+ * @todo add logic
+ */
+sys_message_ptr_t sys_async_receive( void ) {
+  return NULL;
 }
-#endif
-
-#endif

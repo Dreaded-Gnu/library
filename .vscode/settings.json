@@ -1,0 +1,16 @@
+{
+  "files.associations": {
+    "*.h": "c",
+    "*.c": "c"
+  },
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "files.trimTrailingWhitespace": true,
+  "editor.insertSpaces": true,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.rulers": [
+    80, 120
+  ],
+  "files.insertFinalNewline": true,
+  "C_Cpp.loggingLevel": "Error"
+}
