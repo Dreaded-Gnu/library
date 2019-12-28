@@ -112,6 +112,7 @@ AC_DEFINE_UNQUOTED(
 AC_CONFIG_FILES([
   Makefile
   src/Makefile
+  src/atag/Makefile
   src/avl/Makefile
   src/list/Makefile
   src/sys/Makefile

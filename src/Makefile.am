@@ -1,2 +1,2 @@
 
-SUBDIRS = avl list sys tar
+SUBDIRS = atag avl list sys tar
