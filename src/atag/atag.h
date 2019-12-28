@@ -24,6 +24,10 @@
 #include <stdint.h>
 #include <stddef.h>
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 enum tag {
   ATAG_TAG_NONE = 0x00000000,
   ATAG_TAG_CORE = 0x54410001,
@@ -57,5 +61,9 @@ typedef struct {
 } atag_t, *atag_ptr_t;
 
 atag_ptr_t atag_next( atag_ptr_t );
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
